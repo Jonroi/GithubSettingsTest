@@ -29,7 +29,7 @@ navbarClanBuilder.addLogo(
 );
 navbarClanBuilder.addLink('leaderboard', RoutePaths.CLAN_LEADERBOARD, true);
 navbarClanBuilder.addLink('all_clans', RoutePaths.CLAN_ALL, true);
-navbarClanBuilder.addLink('my_clan', RoutePaths.MEMBERS, true);
+navbarClanBuilder.addLink('my_clan', RoutePaths.CLAN_MYCLAN, true);
 navbarClanBuilder.addAuthLogin('login', RoutePaths.auth_login);
 
 export const navbarClanMobile = navbarClanBuilder.build();

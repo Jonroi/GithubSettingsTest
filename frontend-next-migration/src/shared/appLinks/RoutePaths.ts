@@ -12,6 +12,7 @@ export enum AppRoutesLinks {
     CLAN_ONE = "clan_one",
     CLAN_ADD_NEW = "clan_add_new",
     CLAN_LEADERBOARD = "CLAN_LEADERBOARD",
+    CLAN_MYCLAN = "CLAN_MYCLAN",
 
     PICTURE_GALLERY = "PICTURE_GALLERY",
     COMICS_GALLERY = "COMICS_GALLERY",
@@ -57,6 +58,7 @@ export const RoutePaths: Record<AppRoutesLinks, string> = {
     [AppRoutesLinks.CLAN_ADD_NEW]: "/clans/addNew",
     [AppRoutesLinks.CLAN_ONE]: "/clans/:id",
     [AppRoutesLinks.CLAN_LEADERBOARD]: "/clans/leaderboard",
+    [AppRoutesLinks.CLAN_MYCLAN]: "/clans/myclan",
 
     [AppRoutesLinks.PICTURE_GALLERY]: "/picture-galleries",
     [AppRoutesLinks.COMICS_GALLERY]: "/comics",
