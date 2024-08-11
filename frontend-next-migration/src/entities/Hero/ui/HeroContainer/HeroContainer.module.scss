@@ -1,0 +1,103 @@
+.PageWrapper {
+  margin-top: 15vh;
+  margin-bottom: 5vh;
+  padding: 5vh;
+  margin-left: 5vh;
+  margin-right: 5vh;
+  min-height: 75vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; /* Adjust the columns to make the first column 20% */
+  grid-template-rows: auto repeat(8, 1fr); /* Ensure the first row is for the header and the rest are for content */
+  gap: 10px;
+  border: 2px solid rgb(10, 184, 10);
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.headerRow {
+  display: flex;
+  justify-content: space-between;
+  grid-column: 1 / -1;
+}
+
+.sideNavbar {
+  display: flex;
+  flex-direction: column;
+  grid-column: 1 / 2; /* Occupies the first column */
+  grid-row: 2 / -1; /* Starts from the second row and spans to the last row */
+}
+
+.xLinkButton {
+  display: flex;
+}
+
+.heroImg {
+  display: flex;
+  grid-column: 2;
+  grid-row: 2 / span 4;
+}
+
+.heroDescription {
+  display: flex;
+  grid-column: 4 / span 2;
+  grid-row: 2 / span 3;
+}
+
+.heroVideo {
+  grid-column: 4 / span 2;
+  grid-row: 5 / span 4;
+}
+
+.specialSkill {
+  grid-column: 4 / span 2;
+  grid-row: 9;
+}
+
+.attributesPie {
+  grid-column: 3;
+  grid-row: 2 / span 2;
+}
+
+.topPie {
+  grid-column: 3 / span 1;
+  grid-row: 4 / span 2;
+}
+
+.topPlayers {
+  grid-column: 6 / span 2;
+  grid-row: 9;
+}
+
+.attributes {
+  grid-column: 2 / span 2;
+  grid-row: 6 / span 4;
+}
+
+.stats {
+  grid-column: 6 / span 2;
+  grid-row: 5 / span 4;
+}
+
+.xLinkButton {
+  margin-top: 20px;
+}
+
+.ContentWrapper,
+.heroText,
+.searchbar,
+.sideNavbar,
+.heroImg,
+.heroGif,
+.heroDescription,
+.heroVideo,
+.specialSkill,
+.attributesPie,
+.topPlayers,
+.attributes,
+.stats,
+.topPie {
+  border: 2px solid rgb(10, 184, 10);
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
