@@ -5,6 +5,7 @@ import {
   navbarMenuMobile,
   navbarCookiesMobile,
   navbarPrivacyMobile,
+  navbarHeroesMobile,
 } from './data/navbarMenuMobile';
 import {
   navbarClanDesktop,
@@ -12,6 +13,7 @@ import {
   navbarMenuDesktop2,
   navbarCookiesDesktop,
   navbarPrivacyDesktop,
+  navbarHeroesDesktop,
 } from './data/navbarMenuDesktop';
 
 export const getNavbarBuildByTypeAndSize = (
@@ -30,6 +32,8 @@ export const getNavbarBuildByTypeAndSize = (
         return navbarCookiesMobile;
       case 'Privacy':
         return navbarPrivacyMobile;
+      case 'Heroes':
+        return navbarHeroesMobile;
       default:
         return navbarMenuMobile;
     }
@@ -45,6 +49,8 @@ export const getNavbarBuildByTypeAndSize = (
         return navbarCookiesDesktop;
       case 'Privacy':
         return navbarPrivacyDesktop;
+      case 'Heroes':
+        return navbarHeroesDesktop;
       default:
         return navbarMenuDesktop2;
     }
