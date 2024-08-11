@@ -87,4 +87,5 @@ export type NavBarType =
   | 'Clan'
   | 'GameArt'
   | 'Cookies'
-  | 'Privacy';
+  | 'Privacy'
+  | 'Heroes';
