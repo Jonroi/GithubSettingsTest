@@ -12,6 +12,10 @@ import { useRef } from 'react';
 import bgPicture from '@/shared/assets/images/backgrounds/background.webp';
 import { Button, ButtonTheme } from '@/shared/ui/Button';
 
+/**
+ * @deprecated
+ **/
+
 type Props = {
   heroImg: string;
   heroGif: string;
