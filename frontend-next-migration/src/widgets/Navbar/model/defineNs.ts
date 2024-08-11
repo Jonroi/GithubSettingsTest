@@ -10,6 +10,8 @@ export const defineNs = (navBarType: NavBarType) => {
       return 'cookies';
     case 'Privacy':
       return 'privacy';
+    case 'Heroes':
+      return 'heroes';
     default:
       return 'navbar';
   }

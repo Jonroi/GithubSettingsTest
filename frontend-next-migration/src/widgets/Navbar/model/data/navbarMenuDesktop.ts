@@ -50,3 +50,6 @@ export const navbarCookiesDesktop = navbarBuilderV2.build();
 
 const navbarPrivacyBuilder = new NavbarBuilder();
 export const navbarPrivacyDesktop = navbarBuilderV2.build();
+
+const navbarHeroesBuilder = new NavbarBuilder();
+export const navbarHeroesDesktop = navbarBuilderV2.build();
