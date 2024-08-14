@@ -31,6 +31,7 @@ import pinkBg from '@/shared/assets/images/heros/textBgColors/pink.webp';
 import purpleBg from '@/shared/assets/images/heros/textBgColors/purple.webp';
 import redBg from '@/shared/assets/images/heros/textBgColors/red.webp';
 import yellowBg from '@/shared/assets/images/heros/textBgColors/yellow.webp';
+import HeroAttributes from './heroAttributes';
 
 const Heroes = [
   {
