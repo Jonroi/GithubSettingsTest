@@ -5,30 +5,31 @@
   "og-title": "AltZone - Start Your Game Here",
   "og-description": "AltZone offers players the opportunity to join a community, play games, and explore new comics.",
 
-  "green-haired": "Green Haired",
-  "greenHairedDescription": "Hannu Hodari's fights emotions by focusing on eating. He is constantly on guard, never letting go of his shield, \nbut lives in a constant state of flux. ",
-  "greenHairedImgAlt": "Green haired hero's image",
-
   "hannu-hodari": "Hannu Hodari",
-  "hannuHodariDescription": "Hannu Hodari's fights emotions by focusing on eating. He is constantly on guard, never letting go of his shield, \nbut lives in a constant state of flux. ",
-  "hannuHodariImgAlt": "Hannu Hodari's image",
+  "hannuHodariDescription": "Hannu Hodari deflects emotions by focusing on eating. He is constantly on guard and never gives up his shield, which is in a constant state of transformation.",
+  "hannuHodariImgAlt": "Image of Hannu Hodari",
+  "hannuHodariSkillDescription": "Hannu Hodari throws flaming hot dogs at enemies, causing damage and weakening their defenses. Excellent for fending off melee attacks.",
 
-  "purple-girls": "Purple Twins",
-  "purpleGirlsDescription": "In Girl team, the two become one, an invincible team. As emotions approach, they blow up a large bubblegum bubble to protect themselves and\n slowing down the course of events with a suction that is hard to release. ",
-  "purpleGirlsImgAlt": "Purple Twins' image",
+  "purple-girls": "The Twins",
+  "purpleGirlsDescription": "In teamwork, two become one invincible duo. When emotions approach, they blow a huge bubblegum bubble for protection and slow down the flow of events with a suction that is hard to escape.",
+  "purpleGirlsImgAlt": "Image of the Purple Twins",
+  "purpleGirlSkillDescription": "The Purple Twins use a mysterious dance move that confuses opponents and reduces their attack power. Perfect for a tactical retreat.",
 
-  "einstein": "Albert Älypää",
-  "einsteinDescription": "Albert Älypää protects himself from emotions with a non-fiction book that creates diagrams of the emotional trajectory on the playing field. \nBut Albert's constant graphs can sometimes annoy his teammates. ",
-  "einsteinImgAlt": "Einstein's image",
+  "einstein": "Albert Smarthead",
+  "einsteinDescription": "Albert Smarthead shields himself from emotions with a fact book that forms charts on the playing field depicting the paths of emotions. However, Albert's constant charts can sometimes annoy his teammates.",
+  "einsteinImgAlt": "Image of Einstein",
+  "einsteinSkillDescription": "Einstein uses his genius to create a time distortion that slows down enemies' movements and attacks, giving him a strategic advantage.",
 
   "graffitiGaya": "Graffiti-Gaya",
-  "graffitiGayaDescription": "Graffiti Gaya skilfully projects emotions outside herself - onto other characters as well as into art. \nGaya protects herself by spraying a cloud of spray paint that directs emotions to a teammate. Gaya bears no responsibility.",
-  "graffitiGayaAlt": "Graffiti Gaya's image",
+  "graffitiGayaDescription": "Graffiti-Gaya skillfully projects emotions outside herself—onto other characters as well as onto art. Gaya shields herself by spraying a cloud of spray paint that directs emotions to a teammate to handle. Gaya takes no responsibility.",
+  "graffitiGayaAlt": "Image of Graffiti Gaya",
+  "graffitiSkillDescription": "Graffiti Gaya creates colorful graffiti bombs that explode and temporarily blind enemies, giving her time to plan her next move.",
 
-  "pirate": "Pullo-Piraatti",
-  "pirateDescription": "Pullo-Piraatti fights emotions by concentrating on drinking. He is constantly on guard, never letting go of his shield, \nbut is in a constant state of flux.",
-  "pirateAlt": "Pirate's image",
+  "pirate": "Bottle-Pirate",
+  "pirateDescription": "Bottle-Pirate deflects emotions by focusing on drinking. He is constantly on guard and never gives up his shield, which is in a constant state of transformation.",
+  "pirateAlt": "Image of the Pirate",
+  "pirateSkillDescription": "The Pirate uses his saber and charisma to lure enemies into traps, causing great damage at close range.",
 
-  "not-found-title": "Could not find requested hero",
-  "not-found-check-heroes": "Check Available Heroes"
+  "not-found-title": "Hero Not Found",
+  "not-found-check-heroes": "Check the available heroes"
 }
