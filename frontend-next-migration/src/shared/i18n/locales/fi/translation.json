@@ -9,13 +9,11 @@
     "link": "https://locize.com/blog/next-app-dir-i18n/"
   },
 
-
   "feedback": "Palaute",
-  "upButton" : "Ylös",
-
+  "upButton": "Ylös",
 
   "finnish": "Suomi",
-  "english": "English",
-  "russian": "Русский"
-
+  "swedish": "Ruotsi",
+  "english": "Englanti",
+  "russian": "Venäjä"
 }

@@ -1,0 +1,30 @@
+{
+  "head-title": "AltZone",
+  "head-description": "Altzone är ett mobilt multiplayer-spel som utvecklas i gemenskap och syftar till att fungera som ett underhållande utbildningspaket för spelkonst.",
+  "head-keywords": "altzone, spel, gemenskap, serier, gallerier, spela, registrera dig, logga in",
+  "og-title": "AltZone - Starta ditt spel här",
+  "og-description": "Altzone är ett mobilt multiplayer-spel som utvecklas i gemenskap och syftar till att fungera som ett underhållande utbildningspaket för spelkonst.",
+  "section-title": "Spelkonst",
+  "main": "Startsida",
+
+  "info-label": "Vad är spelkonst?",
+  "info-description": "Spel och lekar har varit en del av mänsklig kultur sedan mänsklighetens gryning, och dess senaste uttrycksform, den digitala videospelskonsten, har funnits bland oss i cirka 60 år. Detta är fortfarande en kort tid som berättarform, särskilt jämfört med teater, litteratur och arkitektur, som har varit en del av vår kultur i tusentals år. Den närmaste jämförelsen kan göras med filmer, som har funnits dubbelt så länge. Videospel är dock den enda berättarformen som erbjuder deltagaren möjlighet att interagera och åtminstone till synes påverka berättelsen på ett aktivt plan. Det finns naturligtvis många olika typer av videospel; vissa betonar mer fri lek, medan andra fokuserar på moralisk vägledning, men alla förenas av den experimenterande och utforskande, meningsskapande aktiviteten inom den spelvärld som speldesignern har skapat. Videospel är multisensoriska upplevelser som, precis som andra konstformer, kan fungera som en plattform för diskussion, öka visdom och stärka det känslomässiga livet.",
+
+  "intro-label": "ALT ZONE - utbildningspaket",
+  "intro-description": "ALT Zone 1.0 är ett mobilt spel med konstnärligt innehåll som utvecklas som ett utbildningsverktyg för konstundervisning i grundskolor. På samma sätt som litteraturundervisning innebär att läsa en gemensam bok och analysera den tillsammans för att skapa ett gemensamt språk för att förstå litteratur, erbjuder ALT Zone en liknande plattform för undervisning i spelkonst. Baserat på elevernas vidareutvecklingsidéer kommer ALT Zone 2.0, ett mobilt spel som vem som helst kan ladda ner från appbutiken, att skapas.",
+
+  "implementation-label": "Genomförande i klassrummet",
+  "implementation-description": "Utbildningspaketet innehåller en demoversion av spelet som kan testas på en mobil- eller PC-enhet, samt frågor som vägleder tänkandet kring spelkonst. Spelkonstanalys kan genomföras både genom att spela spelet tillsammans och genom att bara titta på bilder och videor från det. Utbildningspaketet görs så enkelt som möjligt för läraren att genomföra och välja de delar som passar deras undervisningsstil bäst. Baserat på elevernas vidareutvecklingsidéer kommer ALT Zone 2.0, ett mobilt spel som vem som helst kan ladda ner från appbutiken, att skapas. Intäkterna från ALT Zone 2.0 kommer att delas ut som stipendier för att stödja ungdomars drömmar.",
+
+  "message-label": "Budskapet i ALT-spelet",
+  "message-description": "ALT utspelar sig inom människans innersta väsen. Det skildrar rörelsen av känslor mellan människor och lyfter fram våra försvarsmekanismer. Spelkaraktärerna representerar våra skyddsåtgärder, var och en med sin egen spelbarhet som du kan lära dig att behärska. ALT är också en berättelse om gemenskap, om hur vi alla är olika delar av samma kropp. I ALT representerar vi vårt samhälle och lär oss att dela med oss av vårt samhälle. ALT uppmuntrar till konstnärlighet och själsutbyte genom konsten.",
+
+  "content-label": "Utbildningspaketets innehåll",
+  "content-description": "● Temat/budskapet som förmedlas av spelkaraktärerna.<br>● De roller som karaktärsklasserna representerar; igenkännbarhet i representation.<br>● Karaktärernas grafiska stil; vilken atmosfär och stämning den förmedlar.<br>● Grafisk symbolik i gränssnittet; igenkännbarhet i budskapet.<br>● Vad berättar gränssnittets symbolik om vår tid?<br>● Gränssnittets grafiska stil; vad den säger om spelets karaktär och stämning.<br>● Vilka symboler hittar du i själens hemrum; vad har konstnären velat säga med dessa föremål?<br>● <a href='https://docs.google.com/document/d/1QJy7PWREJaJpob6HbL26OEVtHrpDsbiHx_ZJIVdC8UI/edit'target = '_blank'>Mer om ämnet</a>",
+
+  "joinus-label": "Gå med oss",
+  "joinus-description": "Lärare: Anmäl dig för att vara bland de första som testar utbildningspaketet och utveckla det vidare med oss genom att fylla i: <a href='https://docs.google.com/forms/d/e/1FAIpQLScTZXpq3tJ-Lg2fNO6uaJr5CCC0Jh9LOQXcNDG0nfhWl2bE8g/viewform' target = '_blank'>Anmälningsformulär</a> <br><br> Ungdom: Du kan bli en av testarna och utvecklarna genom att skanna QR-koden och gå med i vårt <a href='https://discord.com/invite/erFAcE4Qhb' target = '_blank'>Discord</a>-spelsamhälle!",
+
+  "literature-label": "Litteratur",
+  "literature-description": "Juho Kuorikoski, Spelkonstmanifestet <br>Tuukka Hämäläinen och Aleksandr Manzos, Spelets oändliga världar: Livets stora frågor i digitala spel <br>Jaakko Kemppainen, Speldesignerns grundbok <br>Jaakko Kemppainen, Spel gör gott "
+}
