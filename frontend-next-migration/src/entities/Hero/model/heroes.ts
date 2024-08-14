@@ -1,7 +1,3 @@
-import greenHaired from '@/shared/assets/images/heros/green-haired/green-haired.png';
-import greenHairedGiF from '@/shared/assets/images/heros/green-haired/green-haired-walk.gif';
-// import greenHairedGiF from "@/shared/assets/images/heros/green-haired/green-haired-walk-2.gif";
-
 import einstein from '@/shared/assets/images/heros/einstein/einstein.png';
 import einsteinGif from '@/shared/assets/images/heros/einstein/einstein-dab_dance.gif';
 
@@ -26,6 +22,7 @@ import pinkBg from '@/shared/assets/images/heros/textBgColors/pink.webp';
 import purpleBg from '@/shared/assets/images/heros/textBgColors/purple.webp';
 import redBg from '@/shared/assets/images/heros/textBgColors/red.webp';
 import yellowBg from '@/shared/assets/images/heros/textBgColors/yellow.webp';
+import HeroAttributes from './heroAttributes';
 
 const Heroes = [
   {
@@ -37,10 +34,11 @@ const Heroes = [
     borderColor: '#41F50C',
     description: 'hannuHodariDescription',
     group: 'TORJUJAT // RETROFLEKTIO',
-    // group: 'TORJUJAT',
     groupTextBg: redBg,
-    // color: '#e20505',
-    color: 'rgba(226, 5, 5, 0.5)',
+    color: '#e20505',
+    videoLink: 'bqGMXiUa-h4',
+    heroAttributes: HeroAttributes.hannuHodari,
+    skillDescription: 'hannuHodariSkillDescription',
   },
   {
     id: 2,
@@ -51,10 +49,11 @@ const Heroes = [
     borderColor: '#41F50C',
     description: 'purpleGirlsDescription',
     group: 'SULAUTUJAT // KONFLUENSSI',
-    // group: 'SULAUTUJAT',
     groupTextBg: purpleBg,
-    // color: '#910494',
-    color: 'rgba(145, 4, 148, 0.5)',
+    color: '#910494',
+    videoLink: 'bqGMXiUa-h4',
+    heroAttributes: HeroAttributes.purpleGirls,
+    skillDescription: 'purpleGirlsSkillDescription',
   },
   {
     id: 3,
@@ -65,10 +64,11 @@ const Heroes = [
     borderColor: '#41F50C',
     description: 'einsteinDescription',
     group: 'ÄLYLLISTÄJÄT // EGOTISMI',
-    // group: 'ÄLYLLISTÄJÄT',
     groupTextBg: darkblueBg,
-    // color: '#330393',
-    color: 'rgba(51, 3, 147, 0.5)',
+    color: '#330393',
+    videoLink: 'bqGMXiUa-h4',
+    heroAttributes: HeroAttributes.einstein,
+    skillDescription: 'einsteinSkillDescription',
   },
   {
     id: 4,
@@ -79,10 +79,11 @@ const Heroes = [
     borderColor: '#41F50C',
     description: 'graffitiGayaDescription',
     group: 'PEILAAJAT // PROJEKTIO',
-    // group: 'PEILAAJAT',
     groupTextBg: yellowBg,
-    // color: '#feed01',
-    color: 'rgba(254, 237, 1, 0.5)',
+    color: '#feed01',
+    videoLink: 'bqGMXiUa-h4',
+    heroAttributes: HeroAttributes.graffitiGaya,
+    skillDescription: 'graffitiGayaSkillDescription',
   },
   {
     id: 5,
@@ -93,10 +94,11 @@ const Heroes = [
     borderColor: '#41F50C',
     description: 'pirateDescription',
     group: 'TORJUJAT // RETROFLEKTIO',
-    // group: 'TORJUJAT',
     groupTextBg: redBg,
-    // color: '#e20505',
-    color: 'rgba(226, 5, 5, 0.5)',
+    color: '#e20505',
+    videoLink: 'bqGMXiUa-h4',
+    heroAttributes: HeroAttributes.pirate,
+    skillDescription: 'pirateSkillDescription',
   },
 ] as const;
 

@@ -8,6 +8,8 @@ import useKeyboardNavigation from './useKeyboardNavigation';
 import { useRef } from 'react';
 import bgPicture from '@/shared/assets/images/backgrounds/background.webp';
 import { Button, ButtonTheme } from '@/shared/ui/Button';
+import LiteYouTubeEmbed from 'react-lite-youtube-embed';
+import 'react-lite-youtube-embed/dist/LiteYouTubeEmbed.css';
 
 type Props = {
   heroImg: string;
@@ -20,6 +22,9 @@ type Props = {
   xLink: string;
   group: string;
   groupTextBg: string;
+  video: string;
+  attributes: number;
+  skillDescription: string;
 };
 
 const HeroContainer = (props: Props) => {
@@ -32,9 +37,10 @@ const HeroContainer = (props: Props) => {
     xLink,
     heroName,
     group,
+    video,
+    attributes,
+    skillDescription,
   } = props;
-
-  const groupRef = useRef<HTMLDivElement>(null);
 
   useKeyboardNavigation({
     xLink,
@@ -82,13 +88,21 @@ const HeroContainer = (props: Props) => {
         <h3>{heroDescription}</h3>
       </div>
       <div className={cls.attributes}>
-        <h3>ATTRIBUTES</h3>
+        {Object.entries(attributes).map(([key, value]) => (
+          <h3 key={key}>
+            {key.charAt(0).toUpperCase() + key.slice(1)}: {value}
+          </h3>
+        ))}
       </div>
-      <div className={cls.heroVideo}>
-        <h3>VIDEO</h3>
+      <div className={cls.skillVideo}>
+        <h3>Special Skill</h3>
+        <LiteYouTubeEmbed
+          id={video}
+          title='What’s new in Material Design for the web (Chrome Dev Summit 2019)'
+        />
       </div>
       <div className={cls.specialSkill}>
-        <h3>SPECIALSKILLS</h3>
+        <h3>{skillDescription}</h3>
       </div>
       <div className={cls.stats}>
         <h3>STATS</h3>
