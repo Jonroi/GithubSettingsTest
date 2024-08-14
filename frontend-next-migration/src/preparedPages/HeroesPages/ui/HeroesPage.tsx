@@ -27,5 +27,3 @@ export default withBackgroundImage({
   className: cls.wholePageBG,
   // @ts-ignore
 })(HeroesPage);
-
-// export default GameArtPage;
