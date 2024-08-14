@@ -9,10 +9,12 @@ const HeroesPage = () => {
   const sameBg = undefined;
 
   return (
-      <main className={cls.main}>
-        <FeedbackSideButton disableMobile={true} />
-        <SectionHeroesBlocks backgroundImageSrc={sameBg} />
-      </main>
+    <main className={cls.main}>
+      <FeedbackSideButton disableMobile={true} />
+      <SectionHeroesBlocks backgroundImageSrc={sameBg} />
+      {/*<HorizontalLines />*/}
+      {/*<SectionHeroesBlocks backgroundImageSrc={sameBg} />*/}
+    </main>
   );
 };
 
@@ -21,4 +23,3 @@ export default withBackgroundImage({
   imagePath: bgPicture as unknown as string,
   className: cls.wholePageBG,
 })(HeroesPage);
-

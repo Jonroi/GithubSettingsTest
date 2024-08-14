@@ -20,6 +20,9 @@ type HeroData = {
   imgGif: string;
   group: string;
   groupTextBg: string;
+  videoLink: string;
+  heroAttributes: number[];
+  skillDescription: string;
 };
 
 interface Props {
@@ -36,7 +39,7 @@ const HeroPage: FC<Props> = ({
   return (
     <main className={cls.main}>
       <HeroContainer
-          // @ts-ignore
+        // @ts-ignore
         group={selectedHero.group}
         groupTextBg={selectedHero.groupTextBg}
         heroColor={selectedHero.heroColor}
@@ -47,6 +50,9 @@ const HeroPage: FC<Props> = ({
         rightArrowLink={nextHeroLink}
         heroGif={selectedHero.imgGif}
         xLink={RoutePaths.HEROES}
+        video={selectedHero.videoLink}
+        attributes={selectedHero.heroAttributes}
+        skillDescription={selectedHero.skillDescription}
       />
     </main>
   );
