@@ -1,0 +1,19 @@
+{
+  "h1": "Enkelt exempel",
+  "title": "Hem",
+  "to-client-page": "Till kundsidan",
+  "to-second-page": "Till andra sidan",
+  "welcome": "Välkommen till de nya <1>funktionerna</1> i Next.js 13/14 applikationskatalogen och i18next",
+  "blog": {
+    "text": "Läs den tillhörande <1>artikeln</1> som beskriver detta exempel.",
+    "link": "https://locize.com/blog/next-app-dir-i18n/"
+  },
+
+  "feedback": "Feedback",
+  "upButton": "Upp",
+
+  "finnish": "Finska",
+  "swedish": "Svenska",
+  "english": "Engelska",
+  "russian": "Ryska"
+}

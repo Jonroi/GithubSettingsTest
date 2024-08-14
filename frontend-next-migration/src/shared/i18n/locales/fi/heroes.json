@@ -5,34 +5,31 @@
   "og-title": "AltZone - Start Your Game Here",
   "og-description": "AltZone offers players the opportunity to join a community, play games, and explore new comics.",
 
-  "green-haired" : "Vihreä",
-  "greenHairedDescription": "Vihreähiuksisen kantaa suojanaan luonnon voimaa, joka heijastuu hänen kirkkaissa silmissään ja eloisissa eleissään. Hän on kuin metsän henki, rauhallinen ja arvoituksellinen, mutta samalla voimakas ja elinvoimainen.",
-  "greenHairedImgAlt": "Vihreähiuksisen sankarin kuva",
-
-  "hannu-hodari" : "Hannu Hodari",
+  "hannu-hodari": "Hannu Hodari",
   "hannuHodariDescription": "Hannu Hodari torjuu tunteita keskittymällä syömiseen. Hän on jatkuvasti varuillaan, eikä hän koskaan luovu suojakilvestään, \nvaan se elää jatkuvassa muodonmuutoksessa. ",
   "hannuHodariImgAlt": "Hannu Hodarin kuva",
+  "hannuHodariSkillDescription": "Hannu Hodari heittää tulikuumia hodareita vihollisia kohti, aiheuttaen vahinkoa ja heikentäen heidän puolustustaan. Erinomainen torjumaan lähitaisteluhyökkäyksiä.",
 
-  "purple-girls" : "Kaksoset",
+  "purple-girls": "Kaksoset",
   "purpleGirlsDescription": "Tiimityössä kahdesta tulee yksi, voittamaton tiimi. Tunteiden lähestyessä he puhaltavat suuren purkkapallon suojakseen ja\n hidastavat tapahtumien kulkua imulla, josta on vaikea päästä irti.",
   "purpleGirlsImgAlt": "Purppurien kaksosten kuva",
+  "purpleGirlSkillDescription": "Purppurat Kaksoset käyttävät salaperäistä tanssiliikettä, joka hämmentää vastustajat ja alentaa heidän hyökkäyskykyään. Täydellinen taktiseen vetäytymiseen.",
 
-  "einstein" : "Albert Älypää",
+  "einstein": "Albert Älypää",
   "einsteinDescription": "Albert Älypää suojautuu tunteilta tietokirjalla, joka muodostaa pelikentälle tunteiden kulkurataa kuvaavia kaavioita. \nAlbertin jatkuvat kaaviot saattavat kuitenkin toisinaan ärsyttää hänen joukkuetovereitaan. ",
   "einsteinImgAlt": "Einsteinin kuva",
+  "einsteinSkillDescription": "Einstein käyttää nerouttaan luodakseen aikavääristymän, joka hidastaa vihollisten liikkeitä ja hyökkäyksiä, antaen hänelle strategisen edun.",
 
-  "graffitiGaya" : "Graffiti-Gaya",
+  "graffitiGaya": "Graffiti-Gaya",
   "graffitiGayaDescription": "Graffiti-Gaya projisoi taitavasti tunteet itsensä ulkopuolelle - niin toisiin hahmoihin, kuin taiteeseen. \nGaya suojautuu suihkuttamalla spraymaalipilven, joka ohjaa tunteet joukkuetoverin hoidettavaksi. Gaya ei vastuuta kanna.",
   "graffitiGayaAlt": "Graffiti Gayan kuva",
+  "graffitiSkillDescription": "Graffiti Gaya luo värikkäitä graffitipommeja, jotka räjähtävät ja sokaisevat viholliset hetkeksi, antaen hänelle aikaa suunnitella seuraava liike.",
 
-  "pirate" : "Pullo-Piraatti",
+  "pirate": "Pullo-Piraatti",
   "pirateDescription": "Pullo-Piraatti torjuu tunteita keskittymällä juomiseen. Hän on jatkuvasti varuillaan, eikä hän koskaan luovu suojakilvestään, \nvaan se elää jatkuvassa muodonmuutoksessa.",
   "pirateAlt": "Merirosvon kuva",
-
+  "pirateSkillDescription": "Merirosvo käyttää sapeliaan ja karismaansa houkutellakseen viholliset ansoihin, aiheuttaen suurta vahinkoa lähietäisyydeltä.",
 
   "not-found-title": "Etsittyä sankaria ei löytynyt",
   "not-found-check-heroes": "Tarkista saatavilla olevat sankarit"
-
-
-
 }

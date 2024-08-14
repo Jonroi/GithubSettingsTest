@@ -1,0 +1,27 @@
+{
+  "APICode": "API-kod",
+  "ArtisticDirector": "Konstnärlig ledare",
+  "Comics": "Serier",
+  "Concept": "Originalt spelkoncept",
+  "EducationalDesigner": "Utbildningsdesigner",
+  "GameAnimation": "Spelanimation",
+  "GameCode": "Spelkod",
+  "GameDesign": "Speldesign",
+  "GameGraphic": "Spelgrafik",
+  "Graphic": "Grafik",
+  "LogoGraphic": "Logografik",
+  "Others": "Särskilda tack",
+  "OthersComics": "Medverkande i serien",
+  "OthersGame": "Medverkande i spelutvecklingen",
+  "Production": "Produktion",
+  "ProductionConsultant": "Produktionskonsult",
+  "SocialMedia": "Sociala medier",
+  "Sound": "Ljud",
+  "TechnicalConsultant": "Teknisk konsult",
+  "UserInterface": "Användargränssnitt",
+  "WebPagesCode": "Webbkod",
+
+  "head-title": "Teamet - Altzone",
+  "head-description": "Lär känna teamet bakom Altzone-projektet, som är dedikerat till att skapa minnesvärda spelupplevelser och seriegallerier.",
+  "head-keywords": "altzone, team, utvecklare, serier, spel, gemenskap"
+}

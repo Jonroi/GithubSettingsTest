@@ -1,0 +1,35 @@
+{
+  "head-title": "AltZone",
+  "head-description": "Altzone erbjuder spelare möjligheten att gå med i en gemenskap, spela spel och utforska nya serier.",
+  "head-keywords": "altzone, spel, gemenskap, serier, gallerier, spela, registrera dig, logga in",
+  "og-title": "AltZone - Starta ditt spel här",
+  "og-description": "AltZone erbjuder spelare möjligheten att gå med i en gemenskap, spela spel och utforska nya serier.",
+
+  "hannu-hodari": "Hannu Hodari",
+  "hannuHodariDescription": "Hannu Hodari avvärjer känslor genom att fokusera på att äta. Han är ständigt på sin vakt och släpper aldrig sitt sköld, som är i ständig förändring.",
+  "hannuHodariImgAlt": "Bild på Hannu Hodari",
+  "hannuHodariSkillDescription": "Hannu Hodari kastar brännheta korvar mot fiender, vilket orsakar skada och försvagar deras försvar. Utmärkt för att avvärja närstridsattacker.",
+
+  "purple-girls": "Tvillingarna",
+  "purpleGirlsDescription": "I teamwork blir två en oslagbar duo. När känslor närmar sig blåser de upp en stor tuggummibubbla som skydd och saktar ner händelseförloppet med en sugkraft som är svår att komma ur.",
+  "purpleGirlsImgAlt": "Bild på de Lila Tvillingarna",
+  "purpleGirlSkillDescription": "De Lila Tvillingarna använder en mystisk dansrörelse som förvirrar motståndarna och minskar deras attackkraft. Perfekt för taktisk reträtt.",
+
+  "einstein": "Albert Smartskalle",
+  "einsteinDescription": "Albert Smartskalle skyddar sig från känslor med en faktabok som skapar diagram på spelplanen som visar känslornas flöden. Dock kan Alberts ständiga diagram ibland irritera hans lagkamrater.",
+  "einsteinImgAlt": "Bild på Einstein",
+  "einsteinSkillDescription": "Einstein använder sin genialitet för att skapa en tidsförvrängning som saktar ner fiendernas rörelser och attacker, vilket ger honom en strategisk fördel.",
+
+  "graffitiGaya": "Graffiti-Gaya",
+  "graffitiGayaDescription": "Graffiti-Gaya projicerar skickligt känslor utanför sig själv – både på andra karaktärer och i konsten. Gaya skyddar sig genom att spraya en färgdimma som styr känslorna till en lagkamrat att hantera. Gaya tar inget ansvar.",
+  "graffitiGayaAlt": "Bild på Graffiti Gaya",
+  "graffitiSkillDescription": "Graffiti Gaya skapar färgglada graffitibomber som exploderar och bländar fienderna för en stund, vilket ger henne tid att planera sitt nästa drag.",
+
+  "pirate": "Flask-Piraten",
+  "pirateDescription": "Flask-Piraten avvärjer känslor genom att fokusera på att dricka. Han är ständigt på sin vakt och släpper aldrig sitt sköld, som är i ständig förändring.",
+  "pirateAlt": "Bild på Piraten",
+  "pirateSkillDescription": "Piraten använder sin sabel och karisma för att lura fienderna i fällor, vilket orsakar stor skada på nära håll.",
+
+  "not-found-title": "Hjälten du sökte kunde inte hittas",
+  "not-found-check-heroes": "Kontrollera tillgängliga hjältar"
+}
