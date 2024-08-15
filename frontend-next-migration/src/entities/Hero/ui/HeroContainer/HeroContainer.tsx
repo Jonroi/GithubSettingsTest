@@ -5,7 +5,6 @@ import cls from './HeroContainer.module.scss';
 import Link from 'next/link';
 import { classNames } from '@/shared/lib/classNames/classNames';
 import useKeyboardNavigation from './useKeyboardNavigation';
-import { useRef } from 'react';
 import bgPicture from '@/shared/assets/images/backgrounds/background.webp';
 import { Button, ButtonTheme } from '@/shared/ui/Button';
 import LiteYouTubeEmbed from 'react-lite-youtube-embed';
@@ -25,6 +24,7 @@ type Props = {
   groupAttributes: string;
   video: string;
   skillDescription: string;
+  allHeroLinks: { title: string; link: string }[];
 };
 
 const HeroContainer = (props: Props) => {
@@ -41,6 +41,7 @@ const HeroContainer = (props: Props) => {
     groupAttributes,
     groupTextBg,
     skillDescription,
+    allHeroLinks,
   } = props;
 
   useKeyboardNavigation({
@@ -68,7 +69,13 @@ const HeroContainer = (props: Props) => {
         </div>
       </div>
       <div className={cls.sideNavbar}>
-        <h3>SIDE NAVBAR</h3>
+        <ul>
+          {allHeroLinks.map((hero) => (
+            <li key={hero.title}>
+              <Link href={hero.link}>{hero.title}</Link>
+            </li>
+          ))}
+        </ul>
       </div>
       <Image
         quality={100}

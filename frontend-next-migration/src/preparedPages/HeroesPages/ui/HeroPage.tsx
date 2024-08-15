@@ -18,17 +18,23 @@ type HeroData = {
   groupAttributes: number[];
   skillDescription: string;
 };
+interface HeroLink {
+  title: string;
+  link: string;
+}
 
 interface Props {
   selectedHero: HeroData;
   prevHeroLink: string;
   nextHeroLink: string;
+  allHeroLinks: HeroLink[];
 }
 
 const HeroPage: React.FC<Props> = ({
   selectedHero,
   prevHeroLink,
   nextHeroLink,
+  allHeroLinks,
 }) => {
   return (
     <>
@@ -47,6 +53,7 @@ const HeroPage: React.FC<Props> = ({
         video={selectedHero.videoLink}
         groupAttributes={selectedHero.groupAttributes}
         skillDescription={selectedHero.skillDescription}
+        allHeroLinks={allHeroLinks}
       />
       <HorizontalLines />
     </>

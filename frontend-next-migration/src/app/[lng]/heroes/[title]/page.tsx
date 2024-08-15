@@ -21,8 +21,10 @@ export default async function HeroPage({ params }: Props) {
   const selectedHero = getHeroData(title, t);
   const prevHeroLink = generateHeroLink(prevHeroTitle);
   const nextHeroLink = generateHeroLink(nextHeroTitle);
+  const allHeroLinks = generateAllHeroLinks(t);
 
-  const notFoundBoolean = !selectedHero || !nextHeroTitle || !prevHeroTitle;
+  const notFoundBoolean =
+    !selectedHero || !nextHeroTitle || !prevHeroTitle || !allHeroLinks;
 
   if (notFoundBoolean) {
     notFound();
@@ -34,10 +36,12 @@ export default async function HeroPage({ params }: Props) {
       selectedHero={selectedHero}
       prevHeroLink={prevHeroLink}
       nextHeroLink={nextHeroLink}
+      allHeroLinks={allHeroLinks}
     />
   );
 }
 
+// Function to get hero data based on title
 function getHeroData(heroTitle: string, t: (key: string) => string) {
   const hero = heroes.find((h) => h.title === heroTitle);
   return hero
@@ -58,17 +62,28 @@ function getHeroData(heroTitle: string, t: (key: string) => string) {
     : null;
 }
 
+// Function to find the next hero's title
 function findNextTitle(currentIndex: number): string {
   const nextIndex = currentIndex === heroes.length - 1 ? 0 : currentIndex + 1;
   return heroes[nextIndex]?.title;
 }
 
+// Function to find the previous hero's title
 function findPrevTitle(currentIndex: number): string {
   const previousIndex =
     currentIndex === 0 ? heroes.length - 1 : currentIndex - 1;
   return heroes[previousIndex]?.title;
 }
 
+// Function to generate a link for a given hero title
 function generateHeroLink(heroTitle: string): string {
   return RoutePaths.HEROES_ONE.replace(':id', heroTitle);
+}
+
+// Function to generate links for all heroes
+function generateAllHeroLinks(t: (key: string) => string) {
+  return heroes.map((hero) => ({
+    title: t(`${hero.title}`),
+    link: generateHeroLink(hero.title),
+  }));
 }
