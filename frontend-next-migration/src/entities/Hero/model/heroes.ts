@@ -14,6 +14,15 @@ import hannuHodariGiF from '@/shared/assets/images/heros/hannu-hodari/hannu-hoda
 import graffittiGaya from '@/shared/assets/images/heros/graffitti-gaya/graffitti-gaya.png';
 import graffittiGayaGif from '@/shared/assets/images/heros/graffitti-gaya/grafitti-gaya.gif';
 
+import conman from '@/shared/assets/images/heros/conman/conman.png';
+import conmanGif from '@/shared/assets/images/heros/conman/conman.gif';
+
+import bodybuilder from '@/shared/assets/images/heros/bodybuilder/bodybuilder.png';
+import bodybuilderGif from '@/shared/assets/images/heros/bodybuilder/bodybuilder.gif';
+
+import preacher from '@/shared/assets/images/heros/preacher/preacher.png';
+import preacherGif from '@/shared/assets/images/heros/preacher/preacher.gif';
+
 import darkblueBg from '@/shared/assets/images/heros/textBgColors/dark-blue.webp';
 import greenBg from '@/shared/assets/images/heros/textBgColors/green.webp';
 import lightblueBg from '@/shared/assets/images/heros/textBgColors/light-blue.webp';
@@ -22,7 +31,6 @@ import pinkBg from '@/shared/assets/images/heros/textBgColors/pink.webp';
 import purpleBg from '@/shared/assets/images/heros/textBgColors/purple.webp';
 import redBg from '@/shared/assets/images/heros/textBgColors/red.webp';
 import yellowBg from '@/shared/assets/images/heros/textBgColors/yellow.webp';
-import HeroAttributes from './heroAttributes';
 
 const Heroes = [
   {
@@ -33,12 +41,12 @@ const Heroes = [
     title: 'hannu-hodari',
     borderColor: '#41F50C',
     description: 'hannuHodariDescription',
-    group: 'TORJUJAT // RETROFLEKTIO',
+    group: 'groupObedient',
+    groupAttributes: 'obedientAttributes',
     groupTextBg: redBg,
     color: '#e20505',
     videoLink: 'bqGMXiUa-h4',
-    heroAttributes: HeroAttributes.hannuHodari,
-    skillDescription: 'hannuHodariSkillDescription',
+    skillDescription: 'obedientDescription',
   },
   {
     id: 2,
@@ -48,12 +56,12 @@ const Heroes = [
     title: 'purple-girls',
     borderColor: '#41F50C',
     description: 'purpleGirlsDescription',
-    group: 'SULAUTUJAT // KONFLUENSSI',
+    group: 'groupConfluent',
+    groupAttributes: 'confluentAttributes',
     groupTextBg: purpleBg,
     color: '#910494',
     videoLink: 'bqGMXiUa-h4',
-    heroAttributes: HeroAttributes.purpleGirls,
-    skillDescription: 'purpleGirlsSkillDescription',
+    skillDescription: 'confluentDescription',
   },
   {
     id: 3,
@@ -63,12 +71,12 @@ const Heroes = [
     title: 'einstein',
     borderColor: '#41F50C',
     description: 'einsteinDescription',
-    group: 'ÄLYLLISTÄJÄT // EGOTISMI',
+    group: 'groupIntellectualizer',
+    groupAttributes: 'intellectualizerAttributes',
     groupTextBg: darkblueBg,
     color: '#330393',
     videoLink: 'bqGMXiUa-h4',
-    heroAttributes: HeroAttributes.einstein,
-    skillDescription: 'einsteinSkillDescription',
+    skillDescription: 'intellectualizerDescription',
   },
   {
     id: 4,
@@ -78,12 +86,12 @@ const Heroes = [
     title: 'graffitiGaya',
     borderColor: '#41F50C',
     description: 'graffitiGayaDescription',
-    group: 'PEILAAJAT // PROJEKTIO',
+    group: 'groupProjector',
+    groupAttributes: 'projectorAttributes',
     groupTextBg: yellowBg,
     color: '#feed01',
     videoLink: 'bqGMXiUa-h4',
-    heroAttributes: HeroAttributes.graffitiGaya,
-    skillDescription: 'graffitiGayaSkillDescription',
+    skillDescription: 'projectorDescription',
   },
   {
     id: 5,
@@ -93,12 +101,57 @@ const Heroes = [
     title: 'pirate',
     borderColor: '#41F50C',
     description: 'pirateDescription',
-    group: 'TORJUJAT // RETROFLEKTIO',
+    group: 'groupRetroflector',
+    groupAttributes: 'retroflectorAttributes',
     groupTextBg: redBg,
     color: '#e20505',
     videoLink: 'bqGMXiUa-h4',
-    heroAttributes: HeroAttributes.pirate,
-    skillDescription: 'pirateSkillDescription',
+    skillDescription: 'retroflectorDescription',
+  },
+  {
+    id: 6,
+    srcImg: bodybuilder,
+    srcGif: 'bodybuilderGif',
+    alt: 'bodybuilderAlt',
+    title: 'bodybuilder',
+    borderColor: '#41F50C',
+    description: 'bodybuilderDescription',
+    group: 'groupDesensitizer',
+    groupAttributes: 'desensitizerAttributes',
+    groupTextBg: lightblueBg,
+    color: '#e20505',
+    videoLink: 'bqGMXiUa-h4',
+    skillDescription: 'desensitizerDescription',
+  },
+  {
+    id: 7,
+    srcImg: preacher,
+    srcGif: 'preacherGif',
+    alt: 'preacherAlt',
+    title: 'preacher',
+    borderColor: '#41F50C',
+    description: 'preacherDescription',
+    group: 'groupObedient',
+    groupAttributes: 'obedientAttributes',
+    groupTextBg: orangeBg,
+    color: '#e20505',
+    videoLink: 'bqGMXiUa-h4',
+    skillDescription: 'obedientDescription',
+  },
+  {
+    id: 8,
+    srcImg: conman,
+    srcGif: 'conmanGif',
+    alt: 'conmanAlt',
+    title: 'conman',
+    borderColor: '#41F50C',
+    description: 'conmanDescription',
+    group: 'groupTrickster',
+    groupAttributes: 'tricksterAttributes',
+    groupTextBg: greenBg,
+    color: '#e20505',
+    videoLink: 'bqGMXiUa-h4',
+    skillDescription: 'tricksterDescription',
   },
 ] as const;
 
