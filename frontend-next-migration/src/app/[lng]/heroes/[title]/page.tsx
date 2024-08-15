@@ -52,7 +52,7 @@ function getHeroData(heroTitle: string, t: (key: string) => string) {
         imgGif: hero?.srcGif as unknown as string,
         group: t(`${hero.group}`),
         videoLink: t(`${hero.videoLink}`),
-        heroAttributes: hero?.heroAttributes,
+        groupAttributes: t(`${hero.groupAttributes}`),
         skillDescription: t(`${hero.skillDescription}`),
       }
     : null;

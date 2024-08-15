@@ -21,7 +21,7 @@ type HeroData = {
   group: string;
   groupTextBg: string;
   videoLink: string;
-  heroAttributes: number[];
+  groupAttributes: number[];
   skillDescription: string;
 };
 
@@ -51,7 +51,7 @@ const HeroPage: FC<Props> = ({
         heroGif={selectedHero.imgGif}
         xLink={RoutePaths.HEROES}
         video={selectedHero.videoLink}
-        attributes={selectedHero.heroAttributes}
+        groupAttributes={selectedHero.groupAttributes}
         skillDescription={selectedHero.skillDescription}
       />
     </main>
