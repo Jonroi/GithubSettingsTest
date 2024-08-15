@@ -1,35 +1,68 @@
 {
   "head-title": "AltZone",
-  "head-description": "Altzone offers players the opportunity to join a community, play games, and explore new comics.",
-  "head-keywords": "altzone, game, community, comics, galleries, play, register, log in",
-  "og-title": "AltZone - Start Your Game Here",
-  "og-description": "AltZone offers players the opportunity to join a community, play games, and explore new comics.",
+  "head-description": "Altzone on yhteisöllisesti rakennettava mobiilimoninpeli, jonka tavoitteena on toimia viihteellisenä pelitaiteen opetuspakettina",
+  "head-keywords": "altzone, peli, yhteisö, sarjakuvat, galleriat, pelaa, rekisteröidy, kirjaudu sisään",
+  "og-title": "AltZone - Aloita pelisi täällä",
+  "og-description": "Altzone on yhteisöllisesti rakennettava mobiilimoninpeli, jonka tavoitteena on toimia viihteellisenä pelitaiteen opetuspakettina",
 
-  "hannu-hodari": "Hannu Hodari",
-  "hannuHodariDescription": "Hannu Hodari torjuu tunteita keskittymällä syömiseen. Hän on jatkuvasti varuillaan, eikä hän koskaan luovu suojakilvestään, \nvaan se elää jatkuvassa muodonmuutoksessa. ",
-  "hannuHodariImgAlt": "Hannu Hodarin kuva",
-  "hannuHodariSkillDescription": "Hannu Hodari heittää tulikuumia hodareita vihollisia kohti, aiheuttaen vahinkoa ja heikentäen heidän puolustustaan. Erinomainen torjumaan lähitaisteluhyökkäyksiä.",
+  "bodybuilder": "Bodari",
+  "bodybuilderDescription": "Bodari suojautuu tunteilta keskittymällä intensiiviseen treeniinsä. Hän on aina valpas, eikä koskaan laske suojaustaan, ja hänen lihaksikas vartalonsa on jatkuvassa hioutumisen ja muutoksen tilassa.",
+  "bodybuilderImgAlt": "Kuva Bodarista",
 
-  "purple-girls": "Kaksoset",
+  "conman": "Huijari",
+  "conmanDescription": "Huijari suojautuu tunteilta keskittymällä juonitteluihin ja petkutuksiin. Hän on aina valppaana, eikä koskaan paljasta todellisia aikeitaan, ja hänen juonensa ovat jatkuvassa muutoksen tilassa.",
+  "conmanImgAlt": "Kuva Huijarista",
+
+  "preacher": "Saarnaaja",
+  "preacherDescription": "Saarnaaja suojautuu tunteilta uppoutumalla saarnoihinsa ja opetuksiinsa. Hän on jatkuvasti valppaana, eikä koskaan horju vakaumuksissaan, ja hänen sanansa kehittyvät jatkuvasti ohjaamaan ja vaikuttamaan muihin.",
+  "preacherImgAlt": "Kuva Saarnaajasta",
+
+  "graffitiGaya": "Graffititaiteilija",
+  "graffitiGayaDescription": "Graffititaiteilija projisoi taitavasti tunteet itsensä ulkopuolelle - niin toisiin hahmoihin, kuin taiteeseen. \nGaya suojautuu suihkuttamalla spraymaalipilven, joka ohjaa tunteet joukkuetoverin hoidettavaksi. Gaya ei vastuuta kanna.",
+  "graffitiGayaAlt": "Graffititaiteilijan kuva",
+
+  "hannu-hodari": "Pullukka",
+  "hannuHodariDescription": "Pullukka torjuu tunteita keskittymällä syömiseen. Hän on jatkuvasti varuillaan, eikä hän koskaan luovu suojakilvestään, \nvaan se elää jatkuvassa muodonmuutoksessa. ",
+  "hannuHodariImgAlt": "Pullukan kuva",
+
+  "pirate": "Alkoholisti",
+  "pirateDescription": "Alkoholisti torjuu tunteita keskittymällä juomiseen. Hän on jatkuvasti varuillaan, eikä hän koskaan luovu suojakilvestään, \nvaan se elää jatkuvassa muodonmuutoksessa.",
+  "pirateAlt": "Alkoholistin kuva",
+
+  "einstein": "Tutkija",
+  "einsteinDescription": "Tutkija suojautuu tunteilta tietokirjalla, joka muodostaa pelikentälle tunteiden kulkurataa kuvaavia kaavioita. \nTutkijan jatkuvat kaaviot saattavat kuitenkin toisinaan ärsyttää hänen joukkuetovereitaan. ",
+  "einsteinImgAlt": "Tutkijan kuva",
+
+  "purple-girls": "Sielunsiskot",
   "purpleGirlsDescription": "Tiimityössä kahdesta tulee yksi, voittamaton tiimi. Tunteiden lähestyessä he puhaltavat suuren purkkapallon suojakseen ja\n hidastavat tapahtumien kulkua imulla, josta on vaikea päästä irti.",
-  "purpleGirlsImgAlt": "Purppurien kaksosten kuva",
-  "purpleGirlSkillDescription": "Purppurat Kaksoset käyttävät salaperäistä tanssiliikettä, joka hämmentää vastustajat ja alentaa heidän hyökkäyskykyään. Täydellinen taktiseen vetäytymiseen.",
-
-  "einstein": "Albert Älypää",
-  "einsteinDescription": "Albert Älypää suojautuu tunteilta tietokirjalla, joka muodostaa pelikentälle tunteiden kulkurataa kuvaavia kaavioita. \nAlbertin jatkuvat kaaviot saattavat kuitenkin toisinaan ärsyttää hänen joukkuetovereitaan. ",
-  "einsteinImgAlt": "Einsteinin kuva",
-  "einsteinSkillDescription": "Einstein käyttää nerouttaan luodakseen aikavääristymän, joka hidastaa vihollisten liikkeitä ja hyökkäyksiä, antaen hänelle strategisen edun.",
-
-  "graffitiGaya": "Graffiti-Gaya",
-  "graffitiGayaDescription": "Graffiti-Gaya projisoi taitavasti tunteet itsensä ulkopuolelle - niin toisiin hahmoihin, kuin taiteeseen. \nGaya suojautuu suihkuttamalla spraymaalipilven, joka ohjaa tunteet joukkuetoverin hoidettavaksi. Gaya ei vastuuta kanna.",
-  "graffitiGayaAlt": "Graffiti Gayan kuva",
-  "graffitiSkillDescription": "Graffiti Gaya luo värikkäitä graffitipommeja, jotka räjähtävät ja sokaisevat viholliset hetkeksi, antaen hänelle aikaa suunnitella seuraava liike.",
-
-  "pirate": "Pullo-Piraatti",
-  "pirateDescription": "Pullo-Piraatti torjuu tunteita keskittymällä juomiseen. Hän on jatkuvasti varuillaan, eikä hän koskaan luovu suojakilvestään, \nvaan se elää jatkuvassa muodonmuutoksessa.",
-  "pirateAlt": "Merirosvon kuva",
-  "pirateSkillDescription": "Merirosvo käyttää sapeliaan ja karismaansa houkutellakseen viholliset ansoihin, aiheuttaen suurta vahinkoa lähietäisyydeltä.",
+  "purpleGirlsImgAlt": "Tiimi Tyttöjen kuva",
 
   "not-found-title": "Etsittyä sankaria ei löytynyt",
-  "not-found-check-heroes": "Tarkista saatavilla olevat sankarit"
+  "not-found-check-heroes": "Tarkista saatavilla olevat sankarit",
+
+  "group": "Defenssiluokka",
+
+  "groupDesensitizer": "Tunnottomat",
+  "groupTrickster": "Hämääjät",
+  "groupObedient": "Tottelijat",
+  "groupProjector": "Peilaajat",
+  "groupRetroflector": "Torjujat",
+  "groupIntellectualizer": "Älyllistäjät",
+  "groupConfluent": "Sulautuajat",
+
+  "desensitizerDescription": "Muuttumaton suojakilpi. Suojakilpi räjähtää kun suojakilpeen osunut tarpeeksi monta kertaa (kestää enemmän mitä parempi hahmo on).  Kun suojakilpi on räjähtänyt pelihahmolla ei voi enää suojautua ammusta vastaan mutta se toimii muutoin tiimikaverin kilven aktivoijana/de-aktivoijana sekä ammuksen laukaisussa",
+  "tricksterDescription": "Ammus vaihtaa sattumanvaraisesti suuntaa kun osuu suojakilpeen, jolloin on vaikea ennustaa mihin ammus menee.",
+  "obedientDescription": "Suojakilpi ei muutu koskaan, ja ammus lähtee kilvestä aina tietyssä kulmassa, eli toistaa samaa kaavaa. Kullakin tähän hahmoluokkaan kuuluvalla hahmolla on yksi ja tietty kulma jossa ammus voi lähteä. Palauttaa ammuksen nopeuden aina keskitasolle. (kilven muoto voi olla eri hahmoilla eri, kuitenkin vain 1 kulkusuunta)",
+  "projectorDescription": "Ohjaa ammuksen tiimikaverille. Sopii hyvin pelityyliin jossa toinen ottaa ammuksen vastaan ja toinen tähtää. > mitä useammin hahmon suojakilpeen osuu, sitä isomman ja pysyvämmän savupilven se muodostaa ja näin tiimikaverin paikoilleen asettuminen vaikeutuu",
+  "retroflectorDescription": "Suojakilpi ei mene koskaan pois, vaikka on toisen lähellä. Suojakilpi muuttuu osumista selkeästi kokoajan vaikeammin hallittavaksi > hahmoluokkaan kuuluu: 1. se kuinka monta kertaa ammus osuu kilpeen ennen kuin se kilven muoto muuttuu - kilpi on eri hahmoilla eri muotoinen ja 2. ei mahdollisuutta rakkausammukselle, 3. hahmo kuolee kun kilven muutokset on käytetty",
+  "intellectualizerDescription": "Kun ammus osuu kilpeen, se muodostaa kentälle ammuksen kulkurataa kuvaavia viivoja. Viivat auttavat tähtäämistä. Mitä useammin tapahtuu, sitä pidempään viivat näkyvät kentällä ja niitä on vaikea erottaa aikaisemmista viivoista tai ne alkavat peittää näkökenttää. Kilven muoto ei muutu",
+  "confluentDescription:": "muodostaa kuplan itsensä ja kaverinsa ympärille. Kilvellä tähtääminen on mahdotonta ennakoida, koska kilven muoto muuttuu vuorotellen pyöreän ja puhjenneen purkkapallon välillä. (tää tehdään vasta myöhemmin kun on muu testattu ja hyväksytty toimivaksi testaajien taholta: imee joukkuetoveria luoksensa sitä voimakkaammin mitä useammin kilpeä käyttää)",
+
+  "obedientAttributes": "Nopeus: <br>Paksunahkaisuus: <br>Iskuvoima: <br>Varovaisuus: <br>Elinvoima: ",
+  "desensitizerAttributes": "Nopeus: <br>Paksunahkaisuus: <br>Iskuvoima: <br>Vastustuskyky: <br>Kestävyys: ",
+  "tricksterAttributes": "Nopeus: <br>Ketteryys: <br>Iskuvoima: <br>Väistökyky: <br>Temppuilu: ",
+  "projectorAttributes": "Nopeus: <br>Suuntavaisto: <br>Iskuvoima: <br>Koordinaatio: <br>Taktiikka: ",
+  "retroflectorAttributes": "Nopeus: <br>Muuttuvuus: <br>Iskuvoima: <br>Joustavuus: <br>Sinnikkyys: ",
+  "intellectualizerAttributes": "Nopeus: <br>Analyysi: <br>Iskuvoima: <br>Kestävyys: <br>Käsittely: ",
+  "confluentAttributes": "Nopeus: <br>Yhteistyö: <br>Iskuvoima: <br>Joustavuus: <br>Tiimihenki: "
 }
