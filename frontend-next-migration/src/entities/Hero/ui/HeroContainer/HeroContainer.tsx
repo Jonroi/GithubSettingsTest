@@ -22,8 +22,8 @@ type Props = {
   xLink: string;
   group: string;
   groupTextBg: string;
+  groupAttributes: string;
   video: string;
-  attributes: number;
   skillDescription: string;
 };
 
@@ -38,7 +38,8 @@ const HeroContainer = (props: Props) => {
     heroName,
     group,
     video,
-    attributes,
+    groupAttributes,
+    groupTextBg,
     skillDescription,
   } = props;
 
@@ -52,8 +53,8 @@ const HeroContainer = (props: Props) => {
     <div className={classNames(cls.PageWrapper)}>
       <div className={cls.headerRow}>
         <div className={cls.heroText}>
-          <h3>{heroName}</h3>
-          <h3>{group}</h3>
+          <h1>{heroName}</h1>
+          <h2 style={{ color: groupTextBg }}>{group}</h2>
         </div>
         <div className={cls.searchbar}>
           <h3>SEARCHBAR</h3>
@@ -88,21 +89,14 @@ const HeroContainer = (props: Props) => {
         <h3>{heroDescription}</h3>
       </div>
       <div className={cls.attributes}>
-        {Object.entries(attributes).map(([key, value]) => (
-          <h3 key={key}>
-            {key.charAt(0).toUpperCase() + key.slice(1)}: {value}
-          </h3>
-        ))}
+        <h2>
+          <div dangerouslySetInnerHTML={{ __html: groupAttributes }} />
+        </h2>
       </div>
       <div className={cls.skillVideo}>
         <h3>Special Skill</h3>
-        <LiteYouTubeEmbed
-          id={video}
-          title='What’s new in Material Design for the web (Chrome Dev Summit 2019)'
-        />
-      </div>
-      <div className={cls.specialSkill}>
-        <h3>{skillDescription}</h3>
+        <LiteYouTubeEmbed id={video} title={group} />
+        <h5>{skillDescription}</h5>
       </div>
       <div className={cls.stats}>
         <h3>STATS</h3>
