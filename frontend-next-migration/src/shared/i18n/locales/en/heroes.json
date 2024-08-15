@@ -1,35 +1,68 @@
 {
   "head-title": "AltZone",
-  "head-description": "Altzone offers players the opportunity to join a community, play games, and explore new comics.",
+  "head-description": "Altzone is a community-built mobile multiplayer game designed to be an entertaining educational package of game art.",
   "head-keywords": "altzone, game, community, comics, galleries, play, register, log in",
   "og-title": "AltZone - Start Your Game Here",
-  "og-description": "AltZone offers players the opportunity to join a community, play games, and explore new comics.",
+  "og-description": "Altzone is a community-built mobile multiplayer game designed to be an entertaining educational package of game art.",
 
-  "hannu-hodari": "Hannu Hodari",
-  "hannuHodariDescription": "Hannu Hodari deflects emotions by focusing on eating. He is constantly on guard and never gives up his shield, which is in a constant state of transformation.",
-  "hannuHodariImgAlt": "Image of Hannu Hodari",
-  "hannuHodariSkillDescription": "Hannu Hodari throws flaming hot dogs at enemies, causing damage and weakening their defenses. Excellent for fending off melee attacks.",
+  "bodybuilder": "Bodybuilder",
+  "bodybuilderDescription": "The Bodybuilder shields himself from emotions by focusing on his intense training. He is always vigilant, never lowering his guard, and his muscular physique is in a constant state of refinement and transformation.",
+  "bodybuilderImgAlt": "Image of the Bodybuilder",
 
-  "purple-girls": "The Twins",
-  "purpleGirlsDescription": "In teamwork, two become one invincible duo. When emotions approach, they blow a huge bubblegum bubble for protection and slow down the flow of events with a suction that is hard to escape.",
-  "purpleGirlsImgAlt": "Image of the Purple Twins",
-  "purpleGirlSkillDescription": "The Purple Twins use a mysterious dance move that confuses opponents and reduces their attack power. Perfect for a tactical retreat.",
+  "conman": "Conman",
+  "conmanDescription": "The Conman protects himself from emotions by focusing on schemes and deceptions. He is always on alert, never revealing his true intentions, and his plots are in a constant state of flux.",
+  "conmanImgAlt": "Image of the Conman",
 
-  "einstein": "Albert Smarthead",
-  "einsteinDescription": "Albert Smarthead shields himself from emotions with a fact book that forms charts on the playing field depicting the paths of emotions. However, Albert's constant charts can sometimes annoy his teammates.",
-  "einsteinImgAlt": "Image of Einstein",
-  "einsteinSkillDescription": "Einstein uses his genius to create a time distortion that slows down enemies' movements and attacks, giving him a strategic advantage.",
+  "preacher": "Preacher",
+  "preacherDescription": "The Preacher shields himself from emotions by immersing himself in his sermons and teachings. He is constantly watchful, never wavering in his convictions, and his words are continuously evolving to guide and influence others.",
+  "preacherImgAlt": "Image of the Preacher",
 
-  "graffitiGaya": "Graffiti-Gaya",
-  "graffitiGayaDescription": "Graffiti-Gaya skillfully projects emotions outside herself—onto other characters as well as onto art. Gaya shields herself by spraying a cloud of spray paint that directs emotions to a teammate to handle. Gaya takes no responsibility.",
-  "graffitiGayaAlt": "Image of Graffiti Gaya",
-  "graffitiSkillDescription": "Graffiti Gaya creates colorful graffiti bombs that explode and temporarily blind enemies, giving her time to plan her next move.",
+  "graffitiGaya": "Graffiti Artist",
+  "graffitiGayaDescription": "The Graffiti Artist skillfully projects emotions outside of herself—onto both other characters and into art. She protects herself by spraying a cloud of paint, which directs emotions to a teammate to handle. She takes no responsibility.",
+  "graffitiGayaAlt": "Image of the Graffiti Artist",
 
-  "pirate": "Bottle-Pirate",
-  "pirateDescription": "Bottle-Pirate deflects emotions by focusing on drinking. He is constantly on guard and never gives up his shield, which is in a constant state of transformation.",
-  "pirateAlt": "Image of the Pirate",
-  "pirateSkillDescription": "The Pirate uses his saber and charisma to lure enemies into traps, causing great damage at close range.",
+  "hannu-hodari": "Overeater",
+  "hannuHodariDescription": "Chubby deflects emotions by focusing on eating. He is constantly on guard and never abandons his shield, which is in a constant state of transformation.",
+  "hannuHodariImgAlt": "Image of Chubby",
 
-  "not-found-title": "Hero Not Found",
-  "not-found-check-heroes": "Check the available heroes"
+  "pirate": "Alcoholic",
+  "pirateDescription": "The Alcoholic deflects emotions by focusing on drinking. He is constantly on guard and never abandons his shield, which is in a constant state of transformation.",
+  "pirateAlt": "Image of the Alcoholic",
+
+  "einstein": "Researcher",
+  "einsteinDescription": "The Researcher protects himself from emotions with a textbook, which forms diagrams on the playing field that depict the paths of emotions. However, the Researcher's constant diagrams can sometimes annoy his teammates.",
+  "einsteinImgAlt": "Image of the Researcher",
+
+  "purple-girls": "Soulsisters",
+  "purpleGirlsDescription": "In teamwork, two become one, an unbeatable team. As emotions approach, they blow up a large bubblegum bubble to protect themselves and slow down the course of events with suction, from which it is difficult to escape.",
+  "purpleGirlsImgAlt": "Image of the Team Girls",
+
+  "not-found-title": "The hero you searched for was not found",
+  "not-found-check-heroes": "Check the available heroes",
+
+  "group": "Defense Class",
+
+  "groupDesensitizer": "Desensitizers",
+  "groupTrickster": "Tricksters",
+  "groupObedient": "Obedient",
+  "groupProjector": "Projectors",
+  "groupRetroflector": "Retroflectors",
+  "groupIntellectualizer": "Intellectualizers",
+  "groupConfluent": "Confluents",
+
+  "desensitizerDescription": "An unchanging shield. The shield explodes when hit enough times (with more durability for better characters). Once the shield has exploded, the character can no longer block a missile but can activate/deactivate a teammate's shield or launch a missile.",
+  "tricksterDescription": "The missile randomly changes direction when it hits the shield, making it difficult to predict where the missile will go.",
+  "obedientDescription": "The shield never changes, and the missile always leaves the shield at a certain angle, repeating the same pattern. Each character in this class has one specific angle at which the missile can be launched. It always returns the missile speed to the middle level. (The shape of the shield may differ for different characters, but there is only one direction.)",
+  "projectorDescription": "Directs the missile to a teammate. Works well with a play style where one player takes the missile and the other aims. The more the character's shield is hit, the bigger and more permanent the smoke cloud it forms, making it harder for a teammate to settle into position.",
+  "retroflectorDescription": "The shield never disappears, even when close to another. The shield gradually becomes harder to control with each hit. The shape of the shield differs between characters, and the character dies when all changes to the shield have been exhausted.",
+  "intellectualizerDescription": "When a missile hits the shield, it forms lines on the field showing the missile's path. The lines help with aiming. The more it happens, the longer the lines remain on the field, and it becomes harder to distinguish them from previous lines or they start to obscure the view. The shield shape does not change.",
+  "confluentDescription": "Forms a bubble around itself and a teammate. Aiming with the shield is unpredictable because the shape of the shield alternates between a round and a burst bubblegum bubble. (This will be implemented later after other features are tested and approved by testers: it pulls the teammate towards it more strongly the more the shield is used.)",
+
+  "obedientAttributes": "Speed: <br>Resilience: <br>Impact Power: <br>Caution: <br>Vitality: ",
+  "desensitizerAttributes": "Speed: <br>Resilience: <br>Impact Power: <br>Resistance: <br>Endurance: ",
+  "tricksterAttributes": "Speed: <br>Agility: <br>Impact Power: <br>Dodging Ability: <br>Trickery: ",
+  "projectorAttributes": "Speed: <br>Sense of Direction: <br>Impact Power: <br>Coordination: <br>Tactics: ",
+  "retroflectorAttributes": "Speed: <br>Changeability: <br>Impact Power: <br>Flexibility: <br>Perseverance: ",
+  "intellectualizerAttributes": "Speed: <br>Analysis: <br>Impact Power: <br>Endurance: <br>Handling: ",
+  "confluentAttributes": "Speed: <br>Cooperation: <br>Impact Power: <br>Flexibility: <br>Team Spirit: "
 }
