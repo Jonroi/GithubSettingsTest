@@ -58,11 +58,11 @@
   "intellectualizerDescription": "Kun ammus osuu kilpeen, se muodostaa kentälle ammuksen kulkurataa kuvaavia viivoja. Viivat auttavat tähtäämistä. Mitä useammin tapahtuu, sitä pidempään viivat näkyvät kentällä ja niitä on vaikea erottaa aikaisemmista viivoista tai ne alkavat peittää näkökenttää. Kilven muoto ei muutu",
   "confluentDescription:": "muodostaa kuplan itsensä ja kaverinsa ympärille. Kilvellä tähtääminen on mahdotonta ennakoida, koska kilven muoto muuttuu vuorotellen pyöreän ja puhjenneen purkkapallon välillä. (tää tehdään vasta myöhemmin kun on muu testattu ja hyväksytty toimivaksi testaajien taholta: imee joukkuetoveria luoksensa sitä voimakkaammin mitä useammin kilpeä käyttää)",
 
-  "obedientAttributes": "Nopeus: <br>Paksunahkaisuus: <br>Iskuvoima: <br>Varovaisuus: <br>Elinvoima: ",
-  "desensitizerAttributes": "Nopeus: <br>Paksunahkaisuus: <br>Iskuvoima: <br>Vastustuskyky: <br>Kestävyys: ",
-  "tricksterAttributes": "Nopeus: <br>Ketteryys: <br>Iskuvoima: <br>Väistökyky: <br>Temppuilu: ",
-  "projectorAttributes": "Nopeus: <br>Suuntavaisto: <br>Iskuvoima: <br>Koordinaatio: <br>Taktiikka: ",
-  "retroflectorAttributes": "Nopeus: <br>Muuttuvuus: <br>Iskuvoima: <br>Joustavuus: <br>Sinnikkyys: ",
-  "intellectualizerAttributes": "Nopeus: <br>Analyysi: <br>Iskuvoima: <br>Kestävyys: <br>Käsittely: ",
-  "confluentAttributes": "Nopeus: <br>Yhteistyö: <br>Iskuvoima: <br>Joustavuus: <br>Tiimihenki: "
+  "obedientAttributes": "Nopeus: 4<br>Paksunahkaisuus: 3 Hinta 5<br>Iskuvoima: 0 Hinta 5<br>Varovaisuus: 5 Hinta 5<br>Elinvoima: 1 Hinta 5",
+  "desensitizerAttributes": "Nopeus: 2<br>Paksunahkaisuus: 7 Hinta max<br>Iskuvoima: 3 Hinta 7<br>Varovaisuus: 3 Hinta 7<br>Elinvoima: 7 Hinta 5",
+  "tricksterAttributes": "Nopeus: 7<br>Paksunahkaisuus: 1 Hinta 7<br>Iskuvoima: 2 Hinta 4<br>Varovaisuus: 1 Hinta 4<br>Elinvoima: 1 Hinta 9",
+  "projectorAttributes": "Nopeus: 6<br>Paksunahkaisuus: 2 Hinta 5<br>Iskuvoima: 1 Hinta 3<br>Varovaisuus: 3 Hinta 8<br>Elinvoima: 1 Hinta 4",
+  "retroflectorAttributes": "Nopeus: 5<br>Paksunahkaisuus: 4 Hinta 3<br>Iskuvoima: -1 Hinta 8<br>Varovaisuus: 8 Hinta 5<br>Elinvoima: 1 Hinta 4",
+  "intellectualizerAttributes": "Nopeus: 3<br>Paksunahkaisuus: 6 Hinta 6<br>Iskuvoima: -2 Hinta 4<br>Varovaisuus: 4 Hinta 6<br>Elinvoima: 1 Hinta 4",
+  "confluentAttributes": "Nopeus: 1<br>Paksunahkaisuus: 5 Hinta 4<br>Iskuvoima: -3 Hinta 6<br>Varovaisuus: 6 Hinta 6<br>Elinvoima: 1 Hinta 4"
 }

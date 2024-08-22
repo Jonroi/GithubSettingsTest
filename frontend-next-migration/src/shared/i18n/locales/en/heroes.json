@@ -58,11 +58,11 @@
   "intellectualizerDescription": "When a missile hits the shield, it forms lines on the field showing the missile's path. The lines help with aiming. The more it happens, the longer the lines remain on the field, and it becomes harder to distinguish them from previous lines or they start to obscure the view. The shield shape does not change.",
   "confluentDescription": "Forms a bubble around itself and a teammate. Aiming with the shield is unpredictable because the shape of the shield alternates between a round and a burst bubblegum bubble. (This will be implemented later after other features are tested and approved by testers: it pulls the teammate towards it more strongly the more the shield is used.)",
 
-  "obedientAttributes": "Speed: <br>Resilience: <br>Impact Power: <br>Caution: <br>Vitality: ",
-  "desensitizerAttributes": "Speed: <br>Resilience: <br>Impact Power: <br>Resistance: <br>Endurance: ",
-  "tricksterAttributes": "Speed: <br>Agility: <br>Impact Power: <br>Dodging Ability: <br>Trickery: ",
-  "projectorAttributes": "Speed: <br>Sense of Direction: <br>Impact Power: <br>Coordination: <br>Tactics: ",
-  "retroflectorAttributes": "Speed: <br>Changeability: <br>Impact Power: <br>Flexibility: <br>Perseverance: ",
-  "intellectualizerAttributes": "Speed: <br>Analysis: <br>Impact Power: <br>Endurance: <br>Handling: ",
-  "confluentAttributes": "Speed: <br>Cooperation: <br>Impact Power: <br>Flexibility: <br>Team Spirit: "
+  "desensitizerAttributes": "Speed: 2<br>Resistance: 7 Price max<br>Attack: 3 Price 7<br>Defence:  3 Price 7<br>Hp: 7 Price 5",
+  "tricksterAttributes": "Speed: 7<br>Resistance: 1 Price 7<br>Attack: 2 Price 4<br>Defence:  1 price 4<br>Hp: 1 Price 9",
+  "obedientAttributes": "Speed: 4<br>Resistance: 3 Price 5<br>Attack: 0 Price 5<br>Defence:  5 Price 5<br>Hp: 1 Price 5",
+  "projectorAttributes": "Speed: 6<br>Resistance: 2 Price 5<br>Attack: 1 Price 3<br>Defence:  3 Price 8<br>Hp: 1 Price 4",
+  "retroflectorAttributes": "Speed: 5<br>Resistance: 4 Price 3<br>Attack: -1Price 8<br>Defence:  8 Price 5<br>Hp: 1 Price 4",
+  "intellectualizerAttributes": "Speed: 3<br>Resistance: 6 Price 6<br>Attack: -2 Price 4<br>Defence:  4 Price 6<br>Hp: 1 Price 4",
+  "confluentAttributes": "Speed: 1<br>Resistance: 5 Price 4<br>Attack: -3 Price 6<br>Defence:  6 Price 6<br>Hp: 1 Price 4"
 }
