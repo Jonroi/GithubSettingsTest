@@ -32,6 +32,7 @@ const HeroContainer = (props: Props) => {
     heroImg,
     heroGif,
     heroDescription,
+    heroColor,
     leftArrowLink,
     rightArrowLink,
     xLink,
@@ -52,21 +53,21 @@ const HeroContainer = (props: Props) => {
 
   return (
     <div className={classNames(cls.PageWrapper)}>
-      <div className={cls.headerRow}>
-        <div className={cls.heroText}>
-          <h1>{heroName}</h1>
-          <h2 style={{ color: groupTextBg }}>{group}</h2>
-        </div>
-        <div className={cls.searchbar}>
-          <h3>SEARCHBAR</h3>
-        </div>
-        <div className={cls.xLinkButton}>
-          <Link href={xLink}>
-            <Button theme={ButtonTheme.Graffiti}>
-              <h5>X</h5>
-            </Button>
-          </Link>
-        </div>
+      <div className={cls.heroText}>
+        <h2>{heroName}</h2>
+      </div>
+      <div className={cls.groupText}>
+        <h2 style={{ color: heroColor }}>{group}</h2>
+      </div>
+      <div className={cls.searchbar}>
+        <h3>SEARCHBAR</h3>
+      </div>
+      <div className={cls.xLinkButton}>
+        <Link href={xLink}>
+          <Button theme={ButtonTheme.Graffiti}>
+            <h5>X</h5>
+          </Button>
+        </Link>
       </div>
       <div className={cls.sideNavbar}>
         <ul>
@@ -86,19 +87,13 @@ const HeroContainer = (props: Props) => {
         height={250}
         priority={true}
       />
-      <div className={cls.attributesPie}>
-        <h3>ATTRIBUTES PIE</h3>
-      </div>
-      <div className={cls.topPie}>
-        <h3>TOP PIE</h3>
-      </div>
       <div className={cls.heroDescription}>
         <h3>{heroDescription}</h3>
       </div>
       <div className={cls.attributes}>
-        <h2>
+        <h3>
           <div dangerouslySetInnerHTML={{ __html: groupAttributes }} />
-        </h2>
+        </h3>
       </div>
       <div className={cls.skillVideo}>
         <h3>Special Skill</h3>
@@ -108,6 +103,12 @@ const HeroContainer = (props: Props) => {
       <div className={cls.stats}>
         <h3>STATS</h3>
       </div>
+      <div className={cls.attributesPie}>
+        <h3>ATT PIE</h3>
+      </div>
+      <div className={cls.topPie}>
+        <h3>TOP PIE</h3>
+      </div>
       <div className={cls.topPlayers}>
         <h3>TOP PLAYERS</h3>
       </div>
@@ -116,7 +117,7 @@ const HeroContainer = (props: Props) => {
 };
 
 export default withBackgroundImage({
-  alt: 'Teaching Package bg image',
+  alt: 'HeroContainer bg image',
   imagePath: bgPicture as unknown as string,
   // @ts-ignore
 })(HeroContainer);
