@@ -58,11 +58,11 @@
   "intellectualizerDescription": "När en missil träffar skölden bildar den linjer på fältet som visar missilens bana. Linjerna hjälper till med att sikta. Ju oftare det händer, desto längre stannar linjerna kvar på fältet, och det blir svårare att skilja dem från tidigare linjer eller så börjar de skymma sikten. Sköldens form ändras inte.",
   "confluentDescription": "Bildar en bubbla runt sig själv och en lagkamrat. Att sikta med skölden är oförutsägbart eftersom sköldens form växlar mellan en rund och en sprucken tuggummibubbla. (Detta kommer att implementeras senare efter att andra funktioner har testats och godkänts av testarna: det drar lagkamraten närmare ju oftare skölden används.)",
 
-  "obedientAttributes": "Hastighet: <br>Motståndskraft: <br>Slagkraft: <br>Försiktighet: <br>Livskraft: ",
-  "desensitizerAttributes": "Hastighet: <br>Motståndskraft: <br>Slagkraft: <br>Resistens: <br>Uthållighet: ",
-  "tricksterAttributes": "Hastighet: <br>Rörlighet: <br>Slagkraft: <br>Undvikandeförmåga: <br>Trickförmåga: ",
-  "projectorAttributes": "Hastighet: <br>Riktningskänsla: <br>Slagkraft: <br>Koordination: <br>Taktik: ",
-  "retroflectorAttributes": "Hastighet: <br>Föränderlighet: <br>Slagkraft: <br>Flexibilitet: <br>Uthållighet: ",
-  "intellectualizerAttributes": "Hastighet: <br>Analys: <br>Slagkraft: <br>Uthållighet: <br>Hantera: ",
-  "confluentAttributes": "Hastighet: <br>Samarbete: <br>Slagkraft: <br>Flexibilitet: <br>Laganda: "
+  "desensitizerAttributes": "Hastighet: 2<br>Motstånd: 7 Pris max<br>Attack: 3 Pris 7<br>Försvar: 3 Pris 7<br>Hp: 7 Pris 5",
+  "tricksterAttributes": "Hastighet: 7<br>Motstånd: 1 Pris 7<br>Attack: 2 Pris 4<br>Försvar: 1 Pris 4<br>Hp: 1 Pris 9",
+  "obedientAttributes": "Hastighet: 4<br>Motstånd: 3 Pris 5<br>Attack: 0 Pris 5<br>Försvar: 5 Pris 5<br>Hp: 1 Pris 5",
+  "projectorAttributes": "Hastighet: 6<br>Motstånd: 2 Pris 5<br>Attack: 1 Pris 3<br>Försvar: 3 Pris 8<br>Hp: 1 Pris 4",
+  "retroflectorAttributes": "Hastighet: 5<br>Motstånd: 4 Pris 3<br>Attack: -1 Pris 8<br>Försvar: 8 Pris 5<br>Hp: 1 Pris 4",
+  "intellectualizerAttributes": "Hastighet: 3<br>Motstånd: 6 Pris 6<br>Attack: -2 Pris 4<br>Försvar: 4 Pris 6<br>Hp: 1 Pris 4",
+  "confluentAttributes": "Hastighet: 1<br>Motstånd: 5 Pris 4<br>Attack: -3 Pris 6<br>Försvar: 6 Pris 6<br>Hp: 1 Pris 4"
 }
