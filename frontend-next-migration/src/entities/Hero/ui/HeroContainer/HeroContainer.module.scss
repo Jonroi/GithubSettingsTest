@@ -1,30 +1,43 @@
 .PageWrapper {
+  height: 75vh;
   margin-top: 15vh;
   margin-bottom: 5vh;
   padding: 5vh;
   margin-left: 5vh;
   margin-right: 5vh;
-  min-height: 75vh;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; /* Adjust the columns to make the first column 20% */
-  grid-template-rows: auto repeat(8, 1fr); /* Ensure the first row is for the header and the rest are for content */
-  gap: 10px;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(9, 1fr);
+  gap: 15px;
   border: 2px solid rgb(10, 184, 10);
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.3);
 }
-
-.headerRow {
+.heroText {
   display: flex;
-  justify-content: space-between;
-  grid-column: 1 / -1;
+  grid-column: 2;
+  grid-row: 1;
 }
-
+.groupText {
+  display: flex;
+  grid-column: 3;
+  grid-row: 1;
+}
+.searchbar {
+  display: flex;
+  grid-column: 6;
+  grid-row: 1;
+}
+.xLinkButton {
+  display: flex;
+  grid-column: 7;
+  grid-row: 1;
+  padding-left: 8rem;
+}
 .sideNavbar {
   display: flex;
-  flex-direction: column;
   grid-column: 1;
-  grid-row: 2 / -1;
+  grid-row: 1 / 10;
 }
 .sideNavbar ul {
   list-style-type: none;
@@ -36,58 +49,60 @@
 
 .heroImg {
   display: flex;
-  grid-column: 2 / span 2;
-  grid-row: 2 / span 3;
+  grid-column: 2;
+  grid-row: 2;
+}
+.attributes {
+  display: flex;
+  grid-column: 2;
+  grid-row: 6 /10;
+}
+
+.attributesPie {
+  display: flex;
+  grid-column: 3;
+  grid-row: 2 /6;
+}
+
+.topPie {
+  display: flex;
+  grid-column: 3;
+  grid-row: 6/10;
 }
 
 .heroDescription {
   display: flex;
   grid-column: 4 / span 2;
-  grid-row: 2 / span 3;
-  overflow: auto;
+  grid-row: 2 / 5;
+  padding: 1rem;
+  padding-top: 2rem;
 }
 
 .skillVideo {
   grid-column: 4 / span 2;
-  grid-row: 5 / span 3;
-}
-
-.specialSkill {
-  grid-column: 4 / span 2;
-  grid-row: 8 / span 2;
-}
-
-.attributesPie {
-  grid-column: 2;
-  grid-row: 5;
-}
-
-.topPie {
-  grid-column: 3;
-  grid-row: 5;
+  grid-row: 5 / 10;
+  padding: 1rem;
 }
 
 .topPlayers {
+  display: flex;
   grid-column: 6 / span 2;
-  grid-row: 2 / span 2;
-}
-
-.attributes {
-  grid-column: 2 / span 2;
-  grid-row: 6 / span 4;
+  grid-row: 2 / 5;
 }
 
 .stats {
+  display: flex;
   grid-column: 6 / span 2;
-  grid-row: 5 / span 3;
+  grid-row: 5 / 10;
 }
-
 .xLinkButton {
+  display: flex;
   margin-top: 20px;
 }
 
 .ContentWrapper,
 .heroText,
+.groupText,
 .searchbar,
 .sideNavbar,
 .heroImg,
@@ -102,6 +117,16 @@
 .topPie {
   border: 2px solid rgb(10, 184, 10);
   border-radius: 10px;
-  padding: 10px;
+  align-items: center;
+  justify-content: center;
   background-color: rgba(0, 0, 0, 0.4);
+  overflow: scroll;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+
+  &::-webkit-scrollbar {
+    /* WebKit */
+    width: 0;
+    height: 0;
+  }
 }
