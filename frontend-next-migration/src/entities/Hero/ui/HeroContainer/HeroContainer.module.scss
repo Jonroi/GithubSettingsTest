@@ -5,11 +5,10 @@
   padding: 5vh;
   margin-left: 5vh;
   margin-right: 5vh;
-  min-height: 75vh;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; /* Adjust the columns to make the first column 20% */
-  grid-template-rows: auto repeat(8, 1fr); /* Ensure the first row is for the header and the rest are for content */
-  gap: 10px;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(9, 1fr);
+  gap: 15px;
   border: 2px solid rgb(10, 184, 10);
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0.3);
