@@ -1,4 +1,4 @@
-import einstein from '@/shared/assets/images/heros/einstein/einstein.png';
+import einstein from '@/shared/assets/images/heros/einstein/ResearcherContainer.png';
 import einsteinGif from '@/shared/assets/images/heros/einstein/einstein-dab_dance.gif';
 
 import pirate from '@/shared/assets/images/heros/pirate/pirate.png';
@@ -11,10 +11,10 @@ import purpleGirlsGif from '@/shared/assets/images/heros/purple-girls/purple-gir
 import hannuHodari from '@/shared/assets/images/heros/hannu-hodari/hannu-hodari.png';
 import hannuHodariGiF from '@/shared/assets/images/heros/hannu-hodari/hannu-hodari.gif';
 
-import graffittiGaya from '@/shared/assets/images/heros/graffitti-gaya/graffitti-gaya.png';
+import graffittiGaya from '@/shared/assets/images/heros/graffitti-gaya/graffitiArtistContainer.png';
 import graffittiGayaGif from '@/shared/assets/images/heros/graffitti-gaya/grafitti-gaya.gif';
 
-import conman from '@/shared/assets/images/heros/conman/conman.png';
+import conman from '@/shared/assets/images/heros/conman/ConmanContainer.png';
 import conmanGif from '@/shared/assets/images/heros/conman/conman.gif';
 
 import bodybuilder from '@/shared/assets/images/heros/bodybuilder/bodybuilder.png';
