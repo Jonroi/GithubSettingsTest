@@ -1,13 +1,13 @@
-import {FC} from "react";
-
+import { FC } from 'react';
+import { FeedbackSideButton } from '@/features/FeedbackByExternalSource';
 import { HeroContainer } from '@/entities/Hero';
 import { RoutePaths } from '@/shared/appLinks/RoutePaths';
 import { HorizontalLines } from '@/shared/ui/HorizontalLines';
-import {withBackgroundImage} from "@/shared/lib/hocs/withBackgroundImage";
-import bgPicture from "@/shared/assets/images/backgrounds/background.webp";
+import { withBackgroundImage } from '@/shared/lib/hocs/withBackgroundImage';
+import bgPicture from '@/shared/assets/images/backgrounds/background.webp';
 
-import cls from "./HeroPage.module.scss";
-
+import cls from './HeroPage.module.scss';
+import { Footer } from '@/widgets/Footer';
 
 type HeroData = {
   id: number;
@@ -44,6 +44,7 @@ const HeroPage: FC<Props> = ({
 }) => {
   return (
     <main className={cls.main}>
+      <FeedbackSideButton disableMobile={true} />
       <HeroContainer
         // @ts-ignore
         group={selectedHero.group}
@@ -61,12 +62,14 @@ const HeroPage: FC<Props> = ({
         skillDescription={selectedHero.skillDescription}
         allHeroLinks={allHeroLinks}
       />
+      <HorizontalLines />
+      <Footer />
     </main>
   );
 };
 
 export default withBackgroundImage<Props>({
-  alt: "Hero underground style background",
+  alt: 'Hero underground style background',
   imagePath: bgPicture as unknown as string,
-  className: cls.wholePageBG
+  className: cls.wholePageBG,
 })(HeroPage);
