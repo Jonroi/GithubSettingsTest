@@ -94,7 +94,7 @@ const Heroes = [
     skillDescription: 'projectorDescription',
   },
   {
-    id: 6,
+    id: 5,
     srcImg: bodybuilder,
     srcGif: 'bodybuilderGif',
     alt: 'bodybuilderAlt',
@@ -109,7 +109,7 @@ const Heroes = [
     skillDescription: 'desensitizerDescription',
   },
   {
-    id: 7,
+    id: 6,
     srcImg: preacher,
     srcGif: 'preacherGif',
     alt: 'preacherAlt',
@@ -124,7 +124,7 @@ const Heroes = [
     skillDescription: 'obedientDescription',
   },
   {
-    id: 8,
+    id: 7,
     srcImg: conman,
     srcGif: 'conmanGif',
     alt: 'conmanAlt',
