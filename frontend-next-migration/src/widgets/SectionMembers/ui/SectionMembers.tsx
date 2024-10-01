@@ -25,7 +25,8 @@ export const SectionMembers: FC<WorkersSectionProps> = ({ className = '' }) => {
   const [teams, setTeams] = useState<Team[]>([]);
   const params = useParams();
   const lng = params.lng as string;
-  const { t } = useClientTranslation(lng, 'team');
+
+  const { t } = useClientTranslation('team');
 
   {
     /*Fetch team data when the language changes*/
