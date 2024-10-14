@@ -7,7 +7,6 @@ import { classNames } from "@/shared/lib/classNames/classNames";
 import { ISidebarItem, Sidebar } from "@/shared/ui/Sidebar";
 import { ItemType, NavbarBuild, NavBarType } from "../../model/types";
 import { AppLink, AppLinkTheme } from "@/shared/ui/AppLink/AppLink";
-import { useParams } from "next/navigation";
 import { useClientTranslation } from "@/shared/i18n";
 import { LangSwitcher } from "@/features/LangSwitcher";
 import { FixedButton } from "../FixedButton/FixedButton";
@@ -17,7 +16,6 @@ import useIsPageScrollbar from "@/shared/lib/hooks/useIsPageScrollbar";
 import { defineNs } from "../../model/defineNs";
 
 interface NavbarTouchProps {
-    overlaid?: boolean;
     marginTop?: number;
     onBurgerButtonClick?: (isMenuOpen: boolean) => void;
     navbarBuild?: NavbarBuild;
@@ -29,7 +27,6 @@ interface NavbarTouchProps {
 const NavbarTouchComponent = (props: NavbarTouchProps) => {
 
     const {
-        overlaid = false,
         marginTop,
         navbarBuild,
         side = 'left',
@@ -37,13 +34,8 @@ const NavbarTouchComponent = (props: NavbarTouchProps) => {
         navBarType = "Default"
     } = props;
 
-
-    const params = useParams();
-    const lng = params.lng as string;
-
     const ns = defineNs(navBarType)
-
-    const { t } = useClientTranslation(lng, ns);
+    const { t } = useClientTranslation(ns);
 
     const {checkPermissionFor} = useUserPermissionsV2();
     const permissionToLogin = checkPermissionFor("login");
@@ -111,12 +103,8 @@ const NavbarTouchComponent = (props: NavbarTouchProps) => {
         : {};
 
     const mods: Record<string, boolean> = {
-        [cls.overlayed]: overlaid && !isFixed,
-        // [cls.overlayed]: overlaid,
         [cls.fixed]: isFixed,
     } as Record<string, boolean>;
-
-
 
     const sidebarMods: Record<string, boolean> = {
         [cls.left]: side === 'left',
