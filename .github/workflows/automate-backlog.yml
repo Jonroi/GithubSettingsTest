@@ -16,7 +16,7 @@ jobs:
           ISSUE_NUMBER="${{ github.event.issue.number }}"
           ISSUE_NODE_ID="${{ github.event.issue.node_id }}"
           PROJECT_ID="PVT_kwHOCHoaxc4AqOKS"  # Project ID for @test
-          STATUS_FIELD_ID="19d63288"          # Field ID for Status
+          STATUS_FIELD_ID="8cc809c2"          # Field ID for Status
           BACKLOG_STATUS_OPTION_ID="19d63288" # Option ID for Backlog in Status
 
           # Step 1: Add issue to the project @test
