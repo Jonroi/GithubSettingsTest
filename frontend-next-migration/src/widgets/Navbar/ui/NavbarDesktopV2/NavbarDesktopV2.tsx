@@ -1,9 +1,8 @@
-import { CSSProperties } from "react";
+import {CSSProperties, memo} from "react";
 import cls from "./NavbarDesktopV2.module.scss";
 import { NavbarBuild, NavBarType } from "../../model/types";
 import { classNames } from "@/shared/lib/classNames/classNames";
 import { AppLink, AppLinkTheme } from "@/shared/ui/AppLink/AppLink";
-import { useParams } from "next/navigation";
 import { useClientTranslation } from "@/shared/i18n";
 import { Container } from "@/shared/ui/Container";
 import { LangSwitcher } from "@/features/LangSwitcher";
@@ -16,7 +15,6 @@ import { defineNs } from "../../model/defineNs";
 
 
 type NavbarProps = {
-    overlaid?: boolean;
     marginTop?: number;
     className?: string;
     navbarBuild: NavbarBuild
@@ -24,11 +22,9 @@ type NavbarProps = {
     navBarType?: NavBarType;
 }
 
-const NavbarDesktopV2 = (props: NavbarProps) => {
-
+const NavbarDesktopV2 = memo((props: NavbarProps) => {
     const {
         navbarBuild,
-        overlaid = false,
         marginTop,
         className = '',
         navBarType = "Default"
@@ -42,12 +38,9 @@ const NavbarDesktopV2 = (props: NavbarProps) => {
     const permissionToLogout = checkPermissionFor("logout");
     // todo looks like it should be moved to the feature layer
     const [logout] = useLogoutMutation();
-    const params = useParams();
-    const lng = params.lng as string;
 
     const ns = defineNs(navBarType);
-
-    const { t } = useClientTranslation(lng, ns);
+    const { t } = useClientTranslation(ns);
 
 
     const style = marginTop
@@ -55,7 +48,6 @@ const NavbarDesktopV2 = (props: NavbarProps) => {
         : {};
 
     const mods: Record<string, boolean> = {
-        [cls.overlayed]: overlaid && !isFixed,
         [cls.fixed]: isFixed,
     } as Record<string, boolean>;
 
@@ -91,7 +83,7 @@ const NavbarDesktopV2 = (props: NavbarProps) => {
                                     </AppLink>
                                 )
                                 :  permissionToLogout.isGranted
-                                    ? <div onClick={() => logout()}>
+                                    ? <div className={cls.logoutButton} onClick={() => logout()}>
                                         {t(`logout`)}
                                     </div>
                                     : null
@@ -110,7 +102,7 @@ const NavbarDesktopV2 = (props: NavbarProps) => {
             </Container>
         </nav>
     );
-};
+});
 
 export default NavbarDesktopV2;
 
