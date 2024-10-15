@@ -16,8 +16,8 @@ jobs:
           ISSUE_NUMBER="${{ github.event.issue.number }}"
           ISSUE_NODE_ID="${{ github.event.issue.node_id }}"
           PROJECT_ID="PVT_kwHOCHoaxc4AqOKS"  # Project ID for @test
-          STATUS_FIELD_ID="8cc809c2"          # Field ID for Status
-          BACKLOG_STATUS_OPTION_ID="19d63288" # Option ID for Backlog in Status
+          STATUS_FIELD_ID="PVTSSF_lAHOCHoaxc4AqOKSzghgNXc2"          # Field ID for Status
+          BACKLOG_STATUS_OPTION_ID="8cc809c2" # Option ID for "Backlog" in Status
 
           # Step 1: Add issue to the project @test
           ITEM_ID=$(curl -s -X POST \
@@ -28,7 +28,7 @@ jobs:
             }' \
             https://api.github.com/graphql | jq -r '.data.addProjectV2ItemById.item.id')
 
-          # Step 2: Update issue's status to Backlog within the Statusboard section
+          # Step 2: Update issue's status to Backlog within the Statusboard
           curl -s -X POST \
             -H "Authorization: Bearer ${{ secrets.PAT }}" \
             -H "Content-Type: application/json" \
