@@ -4,7 +4,7 @@
 
 ## 🔧 **Changes Made**
 
-1. [Briefly describe the first change]
+1. [Briefly describe changes you made]
 
 2. [Any refactoring or clean-up tasks]
 
