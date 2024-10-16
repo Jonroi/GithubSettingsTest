@@ -15,7 +15,7 @@ jobs:
         run: |
           ISSUE_NODE_ID="${{ github.event.issue.node_id }}"
           PROJECT_ID="PVT_kwHOCHoaxc4AqOKS"  # ID for @altzone-webpages
-          STATUS_FIELD_ID="PVTSSF_lAHOCHoaxc4AqOKSzghgNXc"  # ID for Status
+          STATUS_FIELD_ID="PVTV_lAHOCHoaxc4AqOKSzgEqOHQ"  # ID for Status
           BACKLOG_STATUS_OPTION_ID="8cc809c2"  # ID for "Backlog"
 
           ADD_PROJECT_RESPONSE=$(curl -s -X POST \
