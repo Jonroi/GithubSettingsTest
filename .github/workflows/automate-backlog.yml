@@ -11,11 +11,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Move Issue to Backlog in @altzone-webpages project
+      - name: Move Issue to Backlog in @test project
         run: |
           ISSUE_NODE_ID="${{ github.event.issue.node_id }}"
-          PROJECT_ID="PVT_kwHOCHoaxc4AqOKS"  # ID for @altzone-webpages
-          STATUS_FIELD_ID="PVTV_lAHOCHoaxc4AqOKSzgEqOHQ"  # ID for Status
+          PROJECT_ID="PVT_kwHOCHoaxc4AqOKS"  # ID for @test
+          STATUS_FIELD_ID="PVTSSF_lAHOCHoaxc4AqOKSzghgNX"  # ID for Status
           BACKLOG_STATUS_OPTION_ID="8cc809c2"  # ID for "Backlog"
 
           ADD_PROJECT_RESPONSE=$(curl -s -X POST \
@@ -28,6 +28,11 @@ jobs:
 
           if [ "$ITEM_ID" == "null" ] || [ -z "$ITEM_ID" ]; then
             echo "Error: Could not retrieve ITEM_ID. Exiting..."
+            exit 1
+          fi
+
+          if [[ "$(echo $ADD_PROJECT_RESPONSE | jq -r '.errors')" != "null" ]]; then
+            echo "Error: Could not add the issue to the project. Exiting..."
             exit 1
           fi
 
